@@ -1,13 +1,14 @@
 /*
 * Alex Heidorn
-* Created: DATE
-* ASSIGNMENT/TITLE
+* Created: 10-10-23
+* CS2 Lab5
 *  
 */
 
-#include <iostream> //input/ouptut stream - cin/cout
-#include <fstream> //file stream - file access
-#include <string> //strings
+#include <iostream>
+#include <fstream> 
+#include <string> 
+#include "MyBag_StringLab5.cpp"
 
 using namespace std;
 
