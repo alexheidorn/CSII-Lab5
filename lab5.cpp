@@ -187,6 +187,178 @@ That search zipped by in 0.1259 milliseconds.
 PS C:\Users\alexh\CS2> 
 */
 
+/* 2000 element bags
+Given bag tests:
+
+Add test:
+Finished adding contents to bag in 1.9628 milliseconds.
+
+Contains Test:
+Bag contains 10
+That search zipped by in 0.5269 milliseconds.
+Bag contains 20
+That search zipped by in 0.7311 milliseconds.
+Bag contains 30
+That search zipped by in 0.6308 milliseconds.
+Bag contains 40
+That search zipped by in 0.5612 milliseconds.
+Bag contains 50
+That search zipped by in 0.1144 milliseconds.
+Bag contains 60
+That search zipped by in 0.1756 milliseconds.
+Bag contains 70
+That search zipped by in 0.0961 milliseconds.
+Bag contains 80
+That search zipped by in 0.0878 milliseconds.
+Bag contains 90
+That search zipped by in 0.0864 milliseconds.
+
+getFrequencyOf Test:
+Found 10 24 time(s).
+That search zipped by in 0.1791 milliseconds.
+Found 20 19 time(s).
+That search zipped by in 0.1886 milliseconds.
+Found 30 19 time(s).
+That search zipped by in 0.1622 milliseconds.
+Found 40 25 time(s).
+That search zipped by in 0.5372 milliseconds.
+Found 50 16 time(s).
+That search zipped by in 0.2535 milliseconds.
+Found 60 15 time(s).
+That search zipped by in 0.2388 milliseconds.
+Found 70 20 time(s).
+That search zipped by in 0.1854 milliseconds.
+Found 80 19 time(s).
+That search zipped by in 0.1853 milliseconds.
+Found 90 21 time(s).
+That search zipped by in 0.1713 milliseconds.
+
+remove Test:
+Removed 10
+That search zipped by in 0.1671 milliseconds.
+Removed 20
+That search zipped by in 0.1261 milliseconds.
+Removed 30
+That search zipped by in 0.129 milliseconds.
+Removed 40
+That search zipped by in 0.1336 milliseconds.
+Removed 50
+That search zipped by in 0.1229 milliseconds.
+Removed 60
+That search zipped by in 0.1184 milliseconds.
+Removed 70
+That search zipped by in 0.1202 milliseconds.
+Removed 80
+That search zipped by in 0.1525 milliseconds.
+Removed 90
+That search zipped by in 0.1389 milliseconds.
+
+removeAll Test:
+Removed 10 23 time(s).
+That search zipped by in 0.214 milliseconds.
+Removed 20 18 time(s).
+That search zipped by in 0.1842 milliseconds.
+Removed 30 18 time(s).
+That search zipped by in 0.1979 milliseconds.
+Removed 40 24 time(s).
+That search zipped by in 0.1937 milliseconds.
+Removed 50 15 time(s).
+That search zipped by in 0.1905 milliseconds.
+Removed 60 14 time(s).
+That search zipped by in 0.191 milliseconds.
+Removed 70 19 time(s).
+That search zipped by in 0.2236 milliseconds.
+Removed 80 18 time(s).
+That search zipped by in 0.1875 milliseconds.
+Removed 90 20 time(s).
+That search zipped by in 0.1922 milliseconds.
+
+Sorted bag tests:
+
+Add test:
+Finished adding contents to bag in 28886.5 milliseconds.
+
+Contains Test:
+Bag contains 10
+That search zipped by in 0.2575 milliseconds.
+Bag contains 20
+That search zipped by in 0.2573 milliseconds.
+Bag contains 30
+That search zipped by in 0.1311 milliseconds.
+Bag contains 40
+That search zipped by in 0.6892 milliseconds.
+Bag contains 50
+That search zipped by in 0.36 milliseconds.
+Bag contains 60
+That search zipped by in 0.6049 milliseconds.
+Bag contains 70
+That search zipped by in 0.7122 milliseconds.
+Bag contains 80
+That search zipped by in 0.2625 milliseconds.
+Bag contains 90
+That search zipped by in 0.7033 milliseconds.
+
+getFrequencyOf Test:
+Found 10 14 time(s).
+That search zipped by in 1.2834 milliseconds.
+Found 20 17 time(s).
+That search zipped by in 0.5782 milliseconds.
+Found 30 18 time(s).
+That search zipped by in 0.7516 milliseconds.
+Found 40 27 time(s).
+That search zipped by in 0.8113 milliseconds.
+Found 50 20 time(s).
+That search zipped by in 1.2036 milliseconds.
+Found 60 29 time(s).
+That search zipped by in 0.7619 milliseconds.
+Found 70 31 time(s).
+That search zipped by in 0.6792 milliseconds.
+Found 80 12 time(s).
+That search zipped by in 0.3624 milliseconds.
+Found 90 21 time(s).
+That search zipped by in 0.6628 milliseconds.
+
+remove Test:
+Removed 10
+That search zipped by in 0.7994 milliseconds.
+Removed 20
+That search zipped by in 0.4754 milliseconds.
+Removed 30
+That search zipped by in 0.2605 milliseconds.
+Removed 40
+That search zipped by in 0.5547 milliseconds.
+Removed 50
+That search zipped by in 0.2423 milliseconds.
+Removed 60
+That search zipped by in 0.4503 milliseconds.
+Removed 70
+That search zipped by in 0.2751 milliseconds.
+Removed 80
+That search zipped by in 0.6462 milliseconds.
+Removed 90
+That search zipped by in 0.3221 milliseconds.
+
+removeAll Test:
+Removed 10 13 time(s).
+That search zipped by in 1.0595 milliseconds.
+Removed 20 16 time(s).
+That search zipped by in 1.2699 milliseconds.
+Removed 30 17 time(s).
+That search zipped by in 1.5716 milliseconds.
+Removed 40 26 time(s).
+That search zipped by in 1.4309 milliseconds.
+Removed 50 19 time(s).
+That search zipped by in 0.6706 milliseconds.
+Removed 60 28 time(s).
+That search zipped by in 0.9907 milliseconds.
+Removed 70 30 time(s).
+That search zipped by in 1.491 milliseconds.
+Removed 80 11 time(s).
+That search zipped by in 0.7835 milliseconds.
+Removed 90 20 time(s).
+That search zipped by in 1.0225 milliseconds.
+PS C:\Users\alexh\CS2> */
+
 #include <iostream>
 #include <fstream> 
 #include <string> 
@@ -203,12 +375,13 @@ int RandInRange(int low, int high) {
 int main()
 {
     srand(time(0));
+    const int ARRAY_SIZE = 1000;
     // timing test given bag ADT
     cout << "Given bag tests:\n"
         << "\nAdd test:\n";
-    oldMyBag_String oldBag;
+    oldMyBag_String oldBag(ARRAY_SIZE);
     high_resolution_clock::time_point startTime = high_resolution_clock::now();
-    for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < ARRAY_SIZE; i++) {
         string s = to_string(RandInRange(1,100));
         oldBag.add(s);
     }
@@ -281,9 +454,9 @@ int main()
     // timing tests sorted bag ADT
     cout << "\nSorted bag tests:\n"
         << "\nAdd test:\n";
-    sortedMyBag_String sortBag;
+    sortedMyBag_String sortBag(ARRAY_SIZE);
     startTime = high_resolution_clock::now();
-    for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < ARRAY_SIZE; i++) {
         string s = to_string(RandInRange(1,100));
         sortBag.add(s);
     }
