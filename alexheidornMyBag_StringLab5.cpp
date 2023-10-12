@@ -4,7 +4,6 @@
 
 #include "alexheidornMyBag_StringLab5.h"
 #include <iostream>
-#include <algorithm>
 
 namespace std {
     sortedMyBag_String::sortedMyBag_String(int sz) {
@@ -51,17 +50,30 @@ namespace std {
             }
             delete [] oldStrings;
         }
-        /*
-        for (int i = 0; i < numInBag; i++){
-            if(s.compare(bagStrings[i]) >= 0) 
-        }
-        */
-
         bagStrings[numInBag] = s;
         numInBag++;
-        
-        // Sort the array in alphabetic order
-        sort(bagStrings, bagStrings + numInBag);
+        sort(bagStrings);
+    }
+    void sortedMyBag_String::sort(string* bagStrings){ //selection sort
+        int i, j, min_idx;
+    
+        // One by one move boundary of
+        // unsorted subarray
+        for (i = 0; i < numInBag - 1; i++) {
+    
+            // Find the minimum element in
+            // unsorted array
+            min_idx = i;
+            for (j = i + 1; j < numInBag; j++) {
+                if (bagStrings[j] < bagStrings[min_idx])
+                    min_idx = j;
+            }
+    
+            // Swap the found minimum element
+            // with the first element
+            if (min_idx != i)
+                swap(bagStrings[min_idx], bagStrings[i]);
+        }
     }
     bool sortedMyBag_String::contains(string s) {
         for (int i = 0; i < numInBag; i++) {

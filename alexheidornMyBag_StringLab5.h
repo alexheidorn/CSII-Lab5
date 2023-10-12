@@ -22,6 +22,7 @@ namespace std {
         int getCurrentSize();
         bool isEmpty();
         void add(string s);
+        void sort(string* bagStrings);
         bool contains(string s);
         string getByIndex(int index);
         int getFrequencyOf(string s);
