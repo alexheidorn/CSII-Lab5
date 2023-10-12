@@ -6,12 +6,21 @@
 */
 
 /* Comment about the results
-talk about which one was faster, and why
-Just one sentence is fine
+The add function for and sorting the bag is significantly slower because it needs to do all
+the comparisons and move around the elements every time the function runs. The fxn takes way too
+long with a bag size of 5000, so I didn't even bother waiting to get that data for comparison.
+When using simple search for both sorted & unsorted arrays, at bag sizes of 1000,
+it appears that the contains and getFrequencyOf functions are slightly faster
+for the unsorted array. Whereas the remove and removeAll functions were slightly faster 
+for the sorted array. This presumably has to do with the amount of memory allocated and
+how the compiler is processing/saving data in the backend.
+Ie - it's quicker for the compiler to find and remove the same data members when they are next to
+each other for some reason
 
-
-consdier adding bin search if time
-just change add fxn for now
+But when compared to the 2000 element bag, it appears that the contains & remove functions are
+significantly faster and the other tests are relatively similar speed.
+This is likely because the unsorted bag can break earlier and return the found values
+if they're in a lower array location than they would be in the sorted version.
 */
 
 /* Test w 1000 element bags
